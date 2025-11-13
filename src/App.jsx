@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import { About, Ministries, Events, Stories } from "./components/Sections";
+import Gallery from "./components/Gallery";
+import PastEvents from "./components/PastEvents";
 import JoinForm from "./components/JoinForm";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
         <About />
         <Ministries />
         <Events />
+        <Gallery />
+        <PastEvents />
         <Stories />
         <JoinForm />
       </main>
